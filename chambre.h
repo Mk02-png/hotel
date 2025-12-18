@@ -1,23 +1,22 @@
 #ifndef CHAMBRE_H
 #define CHAMBRE_H
+#include <string>
 
 
 class chambre{
 
     public:
-        unsigned int num;
-        
+
+
+    private:
+    unsigned int num;
+    std::string type;
+    int prix;        
 
 
 
 
 
 };
-
-
-
-
-
-
 #endif
 
